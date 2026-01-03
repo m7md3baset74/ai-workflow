@@ -15,7 +15,7 @@ export default function WorkflowPage() {
         {/* Main Area */}
         <div className="flex flex-1 flex-col">
           {/* Top Toolbar */}
-          <Toolbar title="Workflow Builder (Dragify Demo)" />
+          <Toolbar title="Workflow Builder (Demo)" />
 
           {/* Canvas */}
           <div className="flex-1">

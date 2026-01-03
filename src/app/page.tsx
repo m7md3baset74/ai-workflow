@@ -89,7 +89,7 @@ export default function Home() {
                   asChild
                   className="theme-gradient hover:opacity-90 text-white text-lg px-8 py-4 transition-opacity"
                 >
-                  <Link href="/builder">
+                  <Link href="/workflow/new">
                     <Play className="mr-2 h-5 w-5" />
                     Get Started Free
                   </Link>
@@ -170,7 +170,7 @@ export default function Home() {
                     asChild
                     className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
                   >
-                    <Link href="builder">
+                    <Link href="/workflow/new">
                       Start Building Now
                       <ArrowRight className="ml-2 h-5 w-5" />
                     </Link>
@@ -194,7 +194,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <Link href="builder">
+                <Link href="/workflow/new">
                   <Play className="mr-2 h-5 w-5" />
                   Get Started Free
                 </Link>
