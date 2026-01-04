@@ -1,6 +1,6 @@
 "use client";
 
-import { ReactFlowProvider } from "reactflow";
+import { ReactFlowProvider } from "@xyflow/react";
 import WorkflowCanvas from "@/components/workflow/WorkflowCanvas";
 import Sidebar from "@/components/workflow/Sidebar";
 import Toolbar from "@/components/workflow/Toolbar";
